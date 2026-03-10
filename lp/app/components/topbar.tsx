@@ -41,23 +41,23 @@ export default function TopBar() {
 
     const links = [
         {
-            href: '#services',
+            href: '/#services',
             name: 'Serviços'
         },
         {
-            href: '#cases',
+            href: '/#cases',
             name: 'Cases'
         },
         {
-            href: '#awards',
+            href: '/#awards',
             name: 'Prêmios'
         },
         {
-            href: '#about',
+            href: '/#about',
             name: 'Sobre'
         },
         {
-            href: '#contact',
+            href: '/#contact',
             name: 'Contato'
         },
     ]
