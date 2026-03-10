@@ -12,7 +12,7 @@ export default function HeroSection () {
 
                 <div className="p-6 md:p-10 py-16 pt-38 md:py-36 xl:pt-62 text-center flex flex-col justify-center items-center bg-black/60 w-full relative z-10">
                     <Image src={"/logo.png"} alt="Logo" width={100} height={100} className="mb-4"/>
-                    <h1 className="text-3xl md:text-6xl font-bold tracking-tighter">Ideias Que Conectam</h1>
+                    <h1 className="text-3xl md:text-6xl font-bold tracking-tighter">Siga Nossas Pegadas</h1>
                     <p className="text-slate-400 px-4 md:px-16 lg:px-64 pt-2">Somos a Logon, uma agência que une estratégia, design e tecnologia para dar voz à sua marca</p>
                     <button
                         className="p-2 mt-4 mb-8 px-6 rounded-full shadow-2xl bg-white text-background font-bold flex justify-between items-center cursor-pointer"
