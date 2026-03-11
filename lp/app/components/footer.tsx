@@ -45,7 +45,7 @@ export default function Footer() {
                     <div>
                         <h4 className="text-lg font-semibold mb-4">Contato</h4>
                         <div className="space-y-2 text-slate-400">
-                            <p>📧 Logonagenciapublicitaria@gmail.com</p>
+                            <p>📧 logonagenciapublicitaria@gmail.com</p>
                             <p>📍 São Paulo, SP</p>
                         </div>
                     </div>

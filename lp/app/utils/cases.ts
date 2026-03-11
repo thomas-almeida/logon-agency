@@ -5,6 +5,7 @@ const cases = [
         name: 'Nescau Vegano',
         coverImage: '/cases/case-1.png',
         backgroundColor: '#2EA234',
+        textColor: '#FFFFFF',
         text: {
             description: 'O Nescau é muito associado ao público infantil e ao consumo com leite, o que limita sua relevância diante de novos hábitos alimentares e públicos que buscam opções mais inclusivas.',
             goal: 'Reposicionar a marca para ampliar o público, criando uma versão que atenda consumidores veganos, intolerantes à lactose e pessoas com dietas mais conscientes.',
@@ -16,7 +17,8 @@ const cases = [
         slug: 'kibon',
         name: 'Kibon Marcando Território',
         coverImage: '/cases/case-2.png',
-        backgroundColor: '',
+        backgroundColor: '#FD3131',
+        textColor: '#FFFFFF',
         text: {
             description: 'A Kibon é uma marca tradicional e presente na memória afetiva dos consumidores, especialmente ligada à infância. Porém, críticas sobre queda na qualidade percebida e aumento de preços têm impactado a forma como parte do público vê a marca hoje.',
             goal: 'Criar o projeto “Marcando Território”, reforçando a presença da Kibon no cotidiano das pessoas e recuperando a conexão emocional com o público.',
@@ -28,19 +30,21 @@ const cases = [
         slug: 'semana-da-comunicacao',
         name: 'Semana da Comunicação',
         coverImage: '/cases/case-3.png',
-        backgroundColor: '',
+        backgroundColor: '#004080',
+        textColor: '#B4FAFE',
         text: {
-            description: 'A Pinacoteca de São Paulo enfrenta baixo engajamento do público jovem, principalmente de regiões periféricas, devido à pouca divulgação atrativa nas redes sociais e à percepção de que o museu não faz parte da realidade deles.',
+            description: 'A Semana de Comunicação precisava de uma identidade visual que representasse a comunicação contemporânea e dialogasse com estudantes de diferentes áreas da comunicação.',
             goal: 'Criar o projeto “Pé na Arte”, aproximando jovens de 14 a 20 anos da periferia do museu por meio de conteúdos digitais, linguagem acessível e experiências culturais mais interativas.',
-            solution: 'Produção de conteúdos para Instagram, TikTok e YouTube, visitas guiadas gratuitas com atividades interativas e parceria com a Havaianas, reforçando a ideia de que arte é para todos e tornando a Pinacoteca mais presente no universo digital dos jovens. 🎨📱'
+            solution: 'Desenvolvimento de um símbolo que une celular e boca, representando a conexão entre ferramenta digital e voz humana, acompanhado de ícones como @, #, megafone e lâmpada para reforçar criatividade, interação e impacto da comunicação na sociedade. 📱💬🎨'
         }
     },
     {
         href: '/cases/hi-tea-analise-swot',
         slug: 'hi-tea-analise-swot',
         name: 'HI TEA - Análise SWOT',
-        coverImage: '/cases/case-4.png',
-        backgroundColor: '',
+        coverImage: '/cases/case-5.png',
+        backgroundColor: '#F7E7E4',
+        textColor: '#BC160F',
         text: {
             description: 'O Hi Tea é uma casa de chá chinesa localizada no bairro da Liberdade, conhecida pela variedade de chás, bubble teas e combinações com frutas. Apesar da proposta jovem e diferenciada, o local ainda enfrenta baixa visibilidade e pouca divulgação nas redes sociais.',
             goal: 'Fortalecer a presença digital da marca e atrair mais público jovem por meio de campanhas nas redes sociais e ações que valorizem a estética e a cultura asiática.',
@@ -51,8 +55,9 @@ const cases = [
         href: '/cases/o-boticario',
         slug: 'o-boticario',
         name: 'O BOTICARIO - Estratégia de Marca',
-        coverImage: '/cases/case-5.png',
-        backgroundColor: '',
+        coverImage: '/cases/case-6.png',
+        backgroundColor: '#063326',
+        textColor: '#FFFFFF',
         text: {
             description: 'Explicar a evolução e o posicionamento de marca de O Boticário, mostrando como sua identidade visual e seu branding ajudaram a construir reconhecimento no mercado de cosméticos.',
             goal: 'Analisar a história da marca, a evolução de seus logotipos e o papel do branding na diferenciação dos produtos, destacando como a perfumaria e a memória afetiva dos consumidores fortalecem a identidade da empresa.',
@@ -63,8 +68,9 @@ const cases = [
         href: '/cases/wanri-podcast',
         slug: 'wanri-podcast',
         name: 'WANRI - Podcast',
-        coverImage: '/cases/case-6.png',
-        backgroundColor: '',
+        coverImage: '/cases/case-7.png',
+        backgroundColor: '#044693',
+        textColor: '#FFFFFF',
         text: {
             description: 'O Wanri é um restaurante oriental localizado na liberdade desde 1962, com um ambiente acolhedor proporcionando as culinárias chinesa e japonesa, trazendo pratos clássicos e em combinados harmonizados.',
             goal: 'Fortalecer a visibilidade e a presença do restaurante Wanri, valorizando sua localização estratégica e a qualidade do cardápio para atrair mais clientes.harmonizados.',
@@ -75,8 +81,9 @@ const cases = [
         href: 'cases/connect-refeicao',
         slug: 'connect-refeicao',
         name: 'Connect Refeição',
-        coverImage: '/cases/case-7.png',
-        backgroundColor: '',
+        coverImage: '/cases/case-8.png',
+        backgroundColor: '#FFF8DC',
+        textColor: '#014A1A',
         text: {
             description: 'A Conect Refeição, marmitaria da região de Franco da Rocha, possui boa qualidade e aceitação entre clientes, mas enfrenta baixa visibilidade digital, comunicação pouco estruturada e falta de posicionamento claro, o que dificulta o crescimento e a diferenciação no mercado.',
             goal: 'Desenvolver um reposicionamento de marca, com nova identidade visual e estratégia de comunicação digital, destacando o sabor caseiro, a praticidade e o atendimento próximo ao cliente.',
@@ -87,8 +94,9 @@ const cases = [
         href: '/cases/pe-na-arte-pinacoteca',
         slug: 'pe-na-arte-pinacoteca',
         name: 'Pé na Arte - Pinacoteca SP',
-        coverImage: '/cases/case-8.png',
-        backgroundColor: '',
+        coverImage: '/cases/case-9.png',
+        backgroundColor: '#FFF8DC',
+        textColor: '#08541A',
         text: {
             description: 'A Pinacoteca de São Paulo enfrenta baixo engajamento do público jovem, principalmente de regiões periféricas, devido à pouca divulgação atrativa nas redes sociais e à percepção de que o museu não faz parte da realidade deles.',
             goal: 'Criar o projeto “Pé na Arte”, aproximando jovens de 14 a 20 anos da periferia do museu por meio de conteúdos digitais, linguagem acessível e experiências culturais mais interativas.',
@@ -98,9 +106,10 @@ const cases = [
     {
         href: '/cases/dancando-na-pina',
         slug: 'dancando-na-pina',
-        name: 'Dancando na PINA',
-        coverImage: '/cases/case-9.png',
-        backgroundColor: '',
+        name: 'Dançando na PINA',
+        coverImage: '/cases/case-10.png',
+        backgroundColor: '#FFFFFF',
+        textColor: '#000000',
         text: {
             description: 'A Pinacoteca de São Paulo é um importante espaço cultural, mas muitos jovens ainda não se sentem conectados ao museu ou desconhecem suas atividades, o que reduz o engajamento desse público.',
             goal: 'Criar o projeto “Dançando na Pina”, aproximando jovens de 14 a 20 anos do museu por meio da dança e de experiências culturais mais interativas.',

@@ -1,6 +1,7 @@
 "use client";
 
 import Image from "next/image"
+import Link from "next/link";
 import { Video, Menu, X, ChevronUp } from "lucide-react"
 import { useState, useEffect } from "react"
 
@@ -16,17 +17,6 @@ export default function TopBar() {
         window.addEventListener('scroll', handleScroll);
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
-
-    const handleScroll = (href: string) => {
-        const element = document.querySelector(href);
-        if (element) {
-            element.scrollIntoView({
-                behavior: 'smooth',
-                block: 'start'
-            });
-        }
-        setIsSidebarOpen(false); // Fecha a sidebar após clicar em um link
-    };
 
     const toggleSidebar = () => {
         setIsSidebarOpen(!isSidebarOpen);
@@ -68,33 +58,39 @@ export default function TopBar() {
             <div className="sticky top-0 z-20 p-2 px-4 md:px-8 w-full flex justify-between items-center backdrop-blur-md shadow-lg">
                 {/* Logo */}
                 <div>
-                    <Image
-                        src={"/logo.png"}
-                        alt="Logo AGENCIA LOGON"
-                        width={40}
-                        height={40}
-                    />
+                    <Link
+                        href={'/'}
+                    >
+                        <Image
+                            src={"/logo.png"}
+                            alt="Logo AGENCIA LOGON"
+                            width={40}
+                            height={40}
+                        />
+                    </Link>
                 </div>
 
                 {/* Desktop Navigation */}
                 <div className="hidden md:flex justify-start items-center gap-4 ml-20">
                     {links.map((link, index) => (
-                        <button
+                        <Link
                             key={index}
-                            onClick={() => handleScroll(link.href)}
+                            href={link.href}
                             className="text-sm font-semibold cursor-pointer hover:text-slate-300 transition-colors"
                         >
                             {link.name}
-                        </button>
+                        </Link>
                     ))}
                 </div>
 
                 {/* Desktop Button */}
                 <div className="hidden md:block">
-                    <button className="p-1 px-4 bg-white text-sm text-background rounded-full flex justify-between items-center cursor-pointer">
+                    <Link
+                        href={'mailto:logonagenciapublicitaria@gmail.com?subject=Contato Logon'}
+                        className="p-1 px-4 bg-white text-sm text-background rounded-full flex justify-between items-center cursor-pointer">
                         Agendar Reunião
                         <Video size="20px" className="ml-1" />
-                    </button>
+                    </Link>
                 </div>
 
                 {/* Mobile Hamburger Button */}
@@ -125,13 +121,14 @@ export default function TopBar() {
                             width={32}
                             height={32}
                         />
-                        <button
+                        <Link
                             onClick={() => setIsSidebarOpen(false)}
                             className="p-2 text-white hover:text-slate-300 transition-colors"
                             aria-label="Fechar menu"
+                            href={'/'}
                         >
                             <X size={24} />
-                        </button>
+                        </Link>
                     </div>
 
                     {/* Navigation Links */}
@@ -139,22 +136,25 @@ export default function TopBar() {
                         <ul className="space-y-4">
                             {links.map((link, index) => (
                                 <li key={index}>
-                                    <button
-                                        onClick={() => handleScroll(link.href)}
+                                    <Link
+                                        href={link.href}
                                         className="w-full text-left py-3 px-4 text-lg font-semibold text-white hover:bg-slate-800 rounded-lg transition-colors"
                                     >
                                         {link.name}
-                                    </button>
+                                    </Link>
                                 </li>
                             ))}
                         </ul>
 
                         {/* CTA Button */}
                         <div className="mt-8 pt-4 border-t border-slate-700">
-                            <button className="w-full p-3 bg-white text-background rounded-full font-bold flex justify-center items-center">
+                            <Link
+                                href={'mailto:logonagenciapublicitaria@gmail.com?subject=Contato Logon'}
+                                className="w-full p-3 bg-white text-background rounded-full font-bold flex justify-center items-center"
+                            >
                                 Agendar Reunião
                                 <Video size="20px" className="ml-2" />
-                            </button>
+                            </Link>
                         </div>
                     </nav>
                 </div>
